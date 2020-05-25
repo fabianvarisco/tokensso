@@ -1,0 +1,31 @@
+{
+  "name": "tokensso",
+  "version": "1.0.0",
+  "description": "token sso helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env=node --detectOpenHandles --coverage=false",
+    "pretest": "eslint --fix --ignore-path .gitignore ."
+  },
+  "jest": {
+    "verbose": false,
+    "bail": 1,
+    "maxConcurrency": 1,
+    "errorOnDeprecated": true,
+    "testMatch": [
+      "**/*.test.js"
+    ]
+  },
+  "author": "Fabian Varisco",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-forge": "^0.9.1",
+    "xmldoc": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "jest": "^26.0.1"
+  }
+}

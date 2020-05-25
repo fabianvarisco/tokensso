@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<sso version="2.0">
+<id
+src="cn=AuthServerInt, ou=DESEIN, o=AFIP, c=AR"
+dst="cn=a-service-name, ou=XXXX, o=AFIP, c=AR"
+unique_id="1234567890"
+gen_time="1590410760"
+exp_time="{{EXP_TIME}}"
+/>
+<operation type="login" value="granted">
+<login
+service="{{SERVICE}}"
+entity="33693450239"
+uid="{{UID}}"
+authmethod="passphrase"
+regmethod="3"
+>
+<info name="cuil" value="{{UID}}"/>
+<info name="codigoLegajo" value="u123456"/>
+<info name="username" value="PEPE"/>
+<info name="departmentNumber" value="AAB00001"/>
+<info name="cn" value="CANTONA ERIC"/>
+<groups>
+<group name="groupname_1"/>
+<group name="groupname_2"/>
+<group name="groupname_3"/>
+</groups>
+<servicedata src="an-origin-service-name"></servicedata>
+</login>
+</operation>
+</sso>
