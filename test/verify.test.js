@@ -2,8 +2,8 @@
 'use strict';
 
 require('dotenv').config();
-const verify = require('./verify.js');
-const pkh = require('./publicKeyHelper.js');
+const verify = require('../verify.js');
+const pkh = require('../publicKeyHelper.js');
 const auth = require('./auth.mock.js');
 
 test('verify', () => {

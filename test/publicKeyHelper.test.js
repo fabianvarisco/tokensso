@@ -2,7 +2,7 @@
 'use strict';
 
 require('dotenv').config();
-const pkh = require('./publicKeyHelper.js');
+const pkh = require('../publicKeyHelper.js');
 
 test('fromEnv', () => {
   const publicKey = pkh.fromEnv();

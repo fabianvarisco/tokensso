@@ -33,7 +33,7 @@ function sign(data) {
 function createToken(options) {
   assert(options.type);
 
-  const tokenssoxmlbuffer = fs.readFileSync('./resources/sso.internal.test.xml');
+  const tokenssoxmlbuffer = fs.readFileSync('./test/sso.internal.test.xml');
   var tokenssoxml = tokenssoxmlbuffer.toString();
 
   tokenssoxml = tokenssoxml.replace(/{{SERVICE}}/g, options.service || 'unknow-service');

@@ -1,7 +1,7 @@
 'use strict';
 
 require('dotenv').config();
-const tsh = require('./tokenSsoHelper.js');
+const tsh = require('../tokenSsoHelper.js');
 const auth = require('./auth.mock.js');
 
 const SERVICE_NAME = process.env.SERVICE_NAME;
