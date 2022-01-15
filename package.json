@@ -20,7 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "node-forge": "^0.9.1",
+    "node-forge": "^1.0.0",
     "xmldoc": "^1.1.2"
   },
   "devDependencies": {
